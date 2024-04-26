@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./logo.png" alt="MediPedia Logo">
+        <h1 class="animated-h1">MediPedia</h1>
+        <h3 class="animated-h3">Navigating Wellness, One Pill at a Time!</h3>
+    </header>
+    <nav>
+        <a href="./medicine_page.html">Medicine</a>
+        <a href="./healthblog.html">HealthBlog</a>
+        <a href="./about_us_page.html">About Us</a>
+        <a href="./loginpage/index.html">Login/Signup</a>
+    </nav>
+    <div id="search-bar">
+        <input type="text" id="medicineName" placeholder="Enter medicine name...">
+        <button onclick="getMedicineInfo()">Search</button>
+    </div>
+    <div id="result">
+    </div>
+    <script>
+        const h1 = document.querySelector('.animated-h1');
+        const h3 = document.querySelector('.animated-h3');
+        setTimeout(() => {
+            h1.classList.add('show');
+            h3.classList.add('show');
+        },1);
+    </script>
+    <script type="text/javascript" src="./search_page.js">  </script>
+    <footer>
+        <p>&copy; 2024 MediPedia. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicines</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./logo.png" alt="MediPedia Logo">
+        <h1 class="animated-h1">MediPedia</h1>
+        <h3 class="animated-h3">Navigating Wellness, One Pill at a Time!</h3>
+    </header>
+    <nav>
+        <a href="./index.html">Search</a>
+        <a href="./medicine_page.html">Medicine</a>
+        <a href="./healthblog.html">HealthBlog</a>
+        <a href="./loginpage/index.html">Login/Signup</a>
+    </nav>
+    <!-- <h2>About Us</h2>
+            <p>We are a company dedicated to providing high-quality information to our customers. Our team is committed to meeting your needs and exceeding your expectations in providing accurate information.</p> -->
+    <div class="container">
+		<h1>About Us</h1>
+		<p>Hello there user! We are a team of passionate developers who have created this platform to provide fast and precise details on medicines searched for. Our website is designed to be user-friendly, intuitive, and easy to use.</p>
+		<p>Our mission is to provide a platform that is accessible to everyone, regardless of their technical skills. We believe that technology should be used to simplify our lives, not complicate it.</p>
+		<h2>Why use MediPedia?</h2>
+		<p>There are many reasons why you should use our website:</p>
+		<ul>
+			<li>It's free to use</li>
+			<li>It's easy to use</li>
+			<li>It's accessible from anywhere in the world</li>
+			<li>It's secure and reliable</li>
+			<li>It's constantly updated with new features and improvements</li>
+		</ul>
+		<h2>How MediPedia useful?</h2>
+		<p>Our website is useful in many ways:</p>
+		<ul>
+			<li><span class="highlight">Health Information: </span> It provide detailed information about various medicine. This can help individuals understand their medications and make informed decisions.</li>
+			<li><span class="highlight">News and Updates:</span> It feature the latest news and updates in the world of health and medicine. This can keep individuals informed about new research, treatments, and public health issue.</li>
+			<li><span class="highlight">Diet and Nutrition:</span> Many websites provide advice on diet and nutrition, which can help individuals maintain a healthy lifestyle and manage their weight. </li>
+			<li><span class="highlight">Accessibility:</span> Health and medicine websites are typically accessible 24/7, allowing individuals to access information and resources at their convenience. This can be particularly useful for those who have busy schedules or live in areas with limited access to healthcare services.</li>
+		</ul>
+	</div>
+    <script>
+        const h1 = document.querySelector('.animated-h1');
+        const h3 = document.querySelector('.animated-h3');
+        setTimeout(() => {
+            h1.classList.add('show');
+            h3.classList.add('show');
+        },1);
+    </script>
+    <script type="text/javascript" src="./search_page.js">  </script>
+    <footer>
+        <p>&copy; 2024 MediPedia. All rights reserved.</p>
+    </footer>
+</body>
+</html>

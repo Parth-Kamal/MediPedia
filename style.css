@@ -1,0 +1,224 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+body {
+    font-family: "Poppins", sans-serif;  
+    background-image: url('https://static.vecteezy.com/system/resources/previews/007/566/586/non_2x/background-pattern-illustration-for-theme-medical-free-vector.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+header img {
+    position: absolute;
+    height: 150px;
+    top:0;
+    left:0;
+}
+.animated-h1 {
+    font-family: 'Elephant', serif;
+    color:#3ea800;
+    font-size: 4em;
+    margin:0px;
+    margin-top: 30px;
+    position: relative;
+    top: -100px;
+    opacity: 0;
+    transition: top 1s ease-in-out, opacity 1s ease-in-out;
+}
+.animated-h1.show {
+    top: 0;
+    opacity: 1;
+}
+.animated-h3 {
+    font-family:monospace;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:#346a1d;
+    position: relative;
+    top: -100px;
+    opacity: 0;
+    transition: top 1s ease-in-out, opacity 1s ease-in-out;
+}
+.animated-h3.show {
+    top: 0;
+    opacity: 1;
+}
+nav {
+    background-color: #3cd40046;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    margin-bottom: 100px;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0 10px;
+    font-weight: light;
+    transition: all 0.3s ease;
+}
+nav a:hover {
+    color: #ffffff;
+    transform: scale(1.5);
+}
+#search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#search-bar input[type="text"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+#search-bar button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+    transition: transform 400ms ease-in-out;
+}
+#search-bar button:hover {
+    background-color: #3e8e41;
+    transform: scale(1.25);
+  }
+#medicine-list {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+}
+#medicine-list h3 {
+    margin-top: 0;
+}
+#result {
+    padding: 20px;
+    margin-top: 20px;
+}
+.medicine-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.medicine-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #ffffff2f;
+    margin-top: 50px;
+}
+.medicine-box {
+    background-color: #ffffff2f;
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    margin-left:400px;
+    margin-right: 400px;
+    border: 1px solid #3eb932;
+    border-radius: 5px;
+    width: 100%;
+}
+.medicineimage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+    float: right;
+}
+.medicine-details {
+    flex: 1;
+}
+main h2 {
+    margin-top: 100px;
+    margin-left: 120px;
+    padding: 20px;
+}
+main p{
+    margin-left: 120px;
+    margin-right: 350px;
+    padding-left: 20px;
+}
+main ul {
+    list-style: disc;
+    margin-left: 120px;
+}
+main li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+main img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float:right;
+    margin-left:10px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+main h3{
+    margin-top: 100px;
+    margin-left: 120px;
+    padding: 20px;
+    
+}
+iframe{
+    margin-right: 100px;
+    margin-left: 120px;
+}
+ul a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+ul a:hover {
+    text-decoration: underline;
+  }
+.container h1,h2 {
+    margin-top: 100px;
+    margin-left: 120px;
+    padding: 20px;
+}
+.container p{
+    margin-left: 120px;
+    margin-right: 350px;
+    padding-left: 20px;
+}
+.container ul {
+    list-style: disc;
+    margin-left: 120px;
+}
+.container li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
